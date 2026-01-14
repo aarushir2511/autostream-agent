@@ -58,7 +58,7 @@ The agent maintains structured state:
   "email": None,
   "platform": None
 }
-
+```
 This guarantees:
 
 - No repeated questions  
