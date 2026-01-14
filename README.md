@@ -103,3 +103,7 @@ The agent runs entirely inside a **Streamlit web app**, providing a clean chat e
 
 ```bash
 export OPENAI_API_KEY=your_openai_key
+```
+```bash
+setx OPENAI_API_KEY "your_openai_key"
+```
