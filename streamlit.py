@@ -7,7 +7,7 @@ st.set_page_config(
     layout="centered"
 )
 
-st.title("🎬 AutoStream AI Assistant")
+st.title("AutoStream AI Assistant")
 st.caption("Social-to-Lead Agentic Workflow")
 
 if "messages" not in st.session_state:
