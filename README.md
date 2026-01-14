@@ -123,3 +123,16 @@ streamlit run streamlit.py
 http://localhost:8501
 ```
 
+
+## 📂 Project Structure
+
+autostream-agent/
+│
+├── agent.py # Core agent logic (state, intent, lead capture)
+├── streamlit.py # Streamlit UI wrapper
+├── knowledge_base.json # Pricing & policy data
+├── requirements.txt
+└── README.md
+├── rag.py
+├── tools.py
+└── intent.py
