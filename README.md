@@ -144,7 +144,7 @@ autostream-agent
 
 └── intent.py
 
-## WhatsApp Integration (Future Scope)
+## WhatsApp Integration
 
 AutoStream Agent can be integrated with the **WhatsApp Business Cloud API**.
 
@@ -163,7 +163,7 @@ Incoming WhatsApp messages → Webhook
 
 ---
 
-## Evaluation Notes (Why This Is Strong)
+## Evaluation Notes
 
 - Deterministic logic (no prompt guessing)
 - Clear intent separation
