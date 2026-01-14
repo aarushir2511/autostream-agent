@@ -99,7 +99,7 @@ The agent runs entirely inside a **Streamlit web app**, providing a clean chat e
 
 ## ▶️ How to Run
 
-### 1. Set Environment Variable
+### 1. Set Environment Variable in Powershell
 
 ```bash
 export OPENAI_API_KEY=your_openai_key
@@ -107,3 +107,19 @@ export OPENAI_API_KEY=your_openai_key
 ```bash
 setx OPENAI_API_KEY "your_openai_key"
 ```
+
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Run Streamlit App
+```bash
+streamlit run streamlit.py
+```
+
+#### Open your browser at:
+```bash
+http://localhost:8501
+```
+
